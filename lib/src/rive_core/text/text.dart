@@ -104,7 +104,7 @@ class Text extends TextBase with TextStyleContainer {
         font: run.style?.font ?? defaultFont,
         fontSize: run.style?.fontSize ?? 16,
         lineHeight: run.style?.lineHeight ?? -1,
-       // letterSpacing: run.style?.letterSpacing ?? 0,
+        letterSpacing: run.style?.letterSpacing ?? 0,
         unicharCount: run.text.codeUnits.length,
         styleId: runIndex++,
       ));
