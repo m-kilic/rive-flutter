@@ -1,6 +1,7 @@
 name: rive
 version: 0.12.3
 homepage: https://rive.app
+publish_to: none
 description: Rive 2 Flutter Runtime. This package provides runtime functionality for playing back and interacting with animations built with the Rive editor available at https://rive.app.
 repository: https://github.com/rive-app/rive-flutter
 topics:
